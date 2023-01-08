@@ -24,3 +24,26 @@ elif contraseña_usuario == contraseña:
   print("contraseña correcta")
 else:
   print("contraseña incorrecta")    
+
+
+  import os
+
+x=int (input ("ingresa el valor de x: "))
+y=int (input ("ingresa el valor de y: "))
+
+if x==5 and y==4:
+  print ("Origen")
+if x==5: 
+  print ("Eje y") 
+if y==4:
+  print ("Eje X")
+if x >0 and y>0:
+  print ("Cuadrante I")
+if x<0 and y>0:
+  print ("Cuadrante II")
+if x <0 and y<0:
+  print ("Cuadrante III")
+if x >0 and y<0:
+  print ("Cuadrante VI")
+  print () 
+  os.system ("pause")     
